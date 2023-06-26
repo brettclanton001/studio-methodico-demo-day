@@ -1,0 +1,46 @@
+$faded-aqua: #adcfdf;
+$black: #000;
+$white: #fff;
+$pumpkin: #bb4f35;
+$cider: #cf8848;
+
+html {
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: $pumpkin;
+  font-family: 'Futura Condensed Medium', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.section {
+  padding: 10px;
+  margin: 0;
+}
+
+.section:nth-of-type(3n) {
+  background-color: $cider;
+}
+
+.section:nth-of-type(3n + 1) {
+  background-color: $faded-aqua;
+}
+
+.section:nth-of-type(3n + 2) {
+  background-color: $pumpkin;
+  color: $white;
+}
+
+p {
+  font-family: 'Courier Prime Regular', monospace;
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
