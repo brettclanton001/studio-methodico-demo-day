@@ -25,17 +25,17 @@ body {
   margin: 0;
 }
 
-.section:nth-of-type(3n) {
-  background-color: $cider;
-}
-
 .section:nth-of-type(3n + 1) {
-  background-color: $faded-aqua;
+  background-color: $pumpkin;
+  color: $white;
 }
 
 .section:nth-of-type(3n + 2) {
-  background-color: $pumpkin;
-  color: $white;
+  background-color: $faded-aqua;
+}
+
+.section:nth-of-type(3n) {
+  background-color: $cider;
 }
 
 p {
